@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.heading {
+    font-family: 'Kanit';
+    text-align: center;
+    color: rgb(55, 55, 114);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.headwords {
+    color: rgb(199, 139, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.translation {
+    text-align: center;
+    color: rgb(243, 155, 255);
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-family: 'Bangers';
+    text-shadow: 1px 1px 1px black;
+}
+
+.persons {
+    color: rgb(255, 153, 0);
+    font-family: 'Bangers';
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+
+.questions {
+    text-align: center;
+    font-family: 'Kanit';
+    color: rgb(0, 109, 204);
+    font-size: 25px;
+}
+
+.words {
+    color: rgb(234, 0, 255);
+    text-shadow: 1px 1px 1px black;
+}
+
+.buttons {
+    font-family: 'Kanit';
+    font-size: 15px;
+    width: 50px;
+    height: 25px;
+    color: rgb(183, 0, 255);
+    border: none;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    margin:0 5px;
+}
+
+.buttons:active {
+    box-shadow: none;
+}
+
+.btn-listen {
+    font-size: 15px;
+    font-family: 'Kanit';
+    width: 50px;
+    height: 25px;
+    color: rgb(0, 162, 255);
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+}
+
+.btn-listen:active {
+    box-shadow: none;
+}
+
+.btn-translate {
+    font-size: 15px;
+    font-family: 'Kanit';
+    width: 30px;
+    height: 25px;
+    color: rgb(255, 123, 0);
+    border: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    margin: 5px;
+}
+
+.btn-translate:active {
+    box-shadow: none;
+}

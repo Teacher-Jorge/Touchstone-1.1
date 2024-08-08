@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Touchstone 1.1</title>
+
+    <audio id="line1" src="lines/line1.mp3"></audio>
+    <audio id="line2" src="lines/line2.mp3"></audio>
+    <audio id="click" src="assets/click.mp3"></audio>
+    <audio id="bounce" src="assets/bounce.mp3"></audio>
+
+</head>
+<body>
+    <div class="heading">Complete with <span class="headwords">am </span>, <span class="headwords">is </span>, or <span class="headwords">are </span>.</div>
+
+    <div class="questions-container">
+
+        <div id="translation" class="translation">______________________________________</div>
+
+        <div class="questions">
+            <span class="persons">A: </span>Hi, Sarah. How <span id="line1a" class="words"> ___ </span> you?
+        </div>
+
+        <div class="questions">
+            <button class="buttons" id="btn1_am">am</button>
+            <button class="buttons" id="btn1_is">is</button>
+            <button class="buttons" id="btn1_are">are</button>
+            <button class="btn-listen" id="btn1_listen">Listen</button>
+            <button class="btn-translate" id="btn1_translate">T</button>
+        </div>
+
+        <div class="questions">
+            <span class="persons">B: </span>Hi, John. I <span id="line2b" class="words"> ___ </span> good, thanks.
+        </div>
+
+        <div class="questions">
+            <button class="buttons" id="btn2_am">am</button>
+            <button class="buttons" id="btn2_is">is</button>
+            <button class="buttons" id="btn2_are">are</button>
+            <button class="btn-listen" id="btn2_listen">Listen</button>
+            <button class="btn-translate" id="btn2_translate">T</button>
+        </div>
+
+        <div class="questions">
+            How about you?
+        </div>
+
+       
+    </div>
+
+ 
+
+
+    <script src="script.js"></script>
+</body>
+</html>
