@@ -117,7 +117,7 @@ btn2_listen.addEventListener('click', function() {
 btn2_translate.addEventListener('click', function() {
     click.play()
     let translation = document.getElementById('translation')
-    translation.textContent = 'Oi, John. Estou bem. Obrigada. E você?'
+    translation.textContent = 'Oi, John. Estou bem, obrigada. E você?'
     setTimeout(() => {
         translation.textContent = '_________________________________'
     },3000);
