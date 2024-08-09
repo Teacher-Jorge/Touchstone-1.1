@@ -25,17 +25,23 @@ let btn5_am = document.getElementById('btn5_am')
 let btn5_is = document.getElementById('btn5_is')
 let btn5_are = document.getElementById('btn5_are')
 
+let btn6_am = document.getElementById('btn6_am')
+let btn6_is = document.getElementById('btn6_is')
+let btn6_are = document.getElementById('btn6_are')
+
 let btn1_listen = document.getElementById('btn1_listen')
 let btn2_listen = document.getElementById('btn2_listen')
 let btn3_listen = document.getElementById('btn3_listen')
 let btn4_listen = document.getElementById('btn4_listen')
 let btn5_listen = document.getElementById('btn5_listen')
+let btn6_listen = document.getElementById('btn6_listen')
 
 let btn1_translate = document.getElementById('btn1_translate')
 let btn2_translate = document.getElementById('btn2_translate')
 let btn3_translate = document.getElementById('btn3_translate')
 let btn4_translate = document.getElementById('btn4_translate')
 let btn5_translate = document.getElementById('btn5_translate')
+let btn6_translate = document.getElementById('btn6_translate')
 
 let click = document.getElementById('click')
 let bounce = document.getElementById('bounce')
@@ -302,6 +308,59 @@ btn5_translate.addEventListener('click', function() {
     click.play()
     let translation = document.getElementById('translation')
     translation.textContent = 'Sim, e eu estou um pouco tensa.'
+    setTimeout(() => {
+        translation.textContent = '_________________________________'
+    },3000);
+})
+
+//LINE 06
+
+btn6_is.addEventListener('click', function() {
+    let audio = document.getElementById('click')
+    audio.play()
+    space6.textContent = "'s"
+    space6.style.color = "limegreen"
+    btn6_is.style.backgroundColor = "limegreen"
+    btn6_is.style.color = "yellow"
+    btn6_is.style.boxShadow = 'none'
+    btn6_is.disabled = 'true'
+    btn6_are.disabled = 'true'
+    btn6_am.disabled = 'true'
+    bounce.play()
+})
+
+btn6_are.addEventListener('click', function() {
+    let audio = document.getElementById('click')
+    audio.play()
+    space6.textContent = "'re"
+    space6.style.color = "red"
+    btn6_are.style.backgroundColor = "red"
+    btn6_are.style.color = "yellow"
+    btn6_are.style.boxShadow = 'none'
+    btn6_are.disabled = 'true'
+})
+
+btn6_am.addEventListener('click', function() {
+    let audio = document.getElementById('click')
+    audio.play()
+    space6.textContent = "'m"
+    space6.style.color = "red"
+    btn6_am.style.backgroundColor = "red"
+    btn6_am.style.color = "yellow"
+    btn6_am.style.boxShadow = 'none'
+    btn6_am.disabled = 'true'
+})
+
+btn6_listen.addEventListener('click', function() {
+    click.play()
+    let audio = document.getElementById('line6')
+    audio.play()
+})
+
+btn6_translate.addEventListener('click', function() {
+    click.play()
+    let translation = document.getElementById('translation')
+    translation.textContent = "Não se preocupe. Vai dar tudo certo!"
     setTimeout(() => {
         translation.textContent = '_________________________________'
     },3000);
