@@ -301,7 +301,7 @@ btn5_listen.addEventListener('click', function() {
 btn5_translate.addEventListener('click', function() {
     click.play()
     let translation = document.getElementById('translation')
-    translation.textContent = 'E eu estou um pouco tensa.'
+    translation.textContent = 'Sim, e eu estou um pouco tensa.'
     setTimeout(() => {
         translation.textContent = '_________________________________'
     },3000);
